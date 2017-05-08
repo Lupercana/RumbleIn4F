@@ -6,14 +6,23 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\sp_skill_one_ready</sprite>
+    <sprite>sprites\sp_skill_two_ready</sprite>
     <sprite>sprites\sp_base</sprite>
-    <sprite>sprites\sp_kevin</sprite>
+    <sprite>sprites\sp_samir</sprite>
     <sprite>sprites\sp_basketball</sprite>
+    <sprite>sprites\sp_kevin</sprite>
+    <sprite>sprites\sp_crystal</sprite>
+    <sprite>sprites\sp_crystal_slash_1</sprite>
+    <sprite>sprites\sp_crystal_slash_2</sprite>
+    <sprite>sprites\sp_crystal_slash_3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple_color</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_crystal_loop</path>
+  </paths>
   <fonts name="fonts">
     <font>fonts\fnt_gui</font>
   </fonts>
@@ -22,10 +31,14 @@
     <object>objects\obj_platform</object>
     <object>objects\obj_base</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_samir1</object>
-    <object>objects\obj_samir2</object>
+    <object>objects\obj_samir</object>
     <object>objects\obj_basketball_no_grav</object>
     <object>objects\obj_basketball_grav</object>
+    <object>objects\obj_kevin</object>
+    <object>objects\obj_crystal</object>
+    <object>objects\obj_crystal_slash_1</object>
+    <object>objects\obj_crystal_slash_2</object>
+    <object>objects\obj_crystal_slash_3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_final_destination</room>

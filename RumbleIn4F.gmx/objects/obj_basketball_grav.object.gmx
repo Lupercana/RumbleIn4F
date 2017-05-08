@@ -151,10 +151,13 @@
             <kind>1</kind>
             <string>if (id_creator != other.num)
 {
-    if (other.num == 1)
-        global.health_one -= damage;
-    else if (other.num == 2)
-        global.health_two -= damage;
+    if (!other.invincible)
+    {
+        if (other.num == 1)
+            global.health_one -= damage;
+        else if (other.num == 2)
+            global.health_two -= damage;
+    }
         
     instance_destroy();
 }
