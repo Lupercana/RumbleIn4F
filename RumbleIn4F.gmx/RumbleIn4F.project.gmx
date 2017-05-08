@@ -5,9 +5,31 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_base</sprite>
+    <sprite>sprites\sp_kevin</sprite>
+    <sprite>sprites\sp_basketball</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_simple_color</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_gui</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_cmd</object>
+    <object>objects\obj_platform</object>
+    <object>objects\obj_base</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_samir1</object>
+    <object>objects\obj_samir2</object>
+    <object>objects\obj_basketball_no_grav</object>
+    <object>objects\obj_basketball_grav</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_final_destination</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
