@@ -22,6 +22,8 @@
     <sprite>sprites\sp_lobster</sprite>
     <sprite>sprites\sp_shark</sprite>
     <sprite>sprites\sp_plant</sprite>
+    <sprite>sprites\sp_bo</sprite>
+    <sprite>sprites\sp_hammer_smash</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple_color</background>
@@ -52,6 +54,8 @@
     <object>objects\obj_shrimp</object>
     <object>objects\obj_lobster</object>
     <object>objects\obj_shark</object>
+    <object>objects\obj_bo</object>
+    <object>objects\obj_hammer_smash</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_final_destination</room>
