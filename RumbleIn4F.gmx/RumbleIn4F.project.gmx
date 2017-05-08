@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sp_skill_one_ready</sprite>
     <sprite>sprites\sp_skill_two_ready</sprite>
+    <sprite>sprites\sp_stunned</sprite>
     <sprite>sprites\sp_base</sprite>
     <sprite>sprites\sp_samir</sprite>
     <sprite>sprites\sp_basketball</sprite>
@@ -16,6 +17,11 @@
     <sprite>sprites\sp_crystal_slash_1</sprite>
     <sprite>sprites\sp_crystal_slash_2</sprite>
     <sprite>sprites\sp_crystal_slash_3</sprite>
+    <sprite>sprites\sp_tharun</sprite>
+    <sprite>sprites\sp_shrimp</sprite>
+    <sprite>sprites\sp_lobster</sprite>
+    <sprite>sprites\sp_shark</sprite>
+    <sprite>sprites\sp_plant</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple_color</background>
@@ -25,12 +31,14 @@
   </paths>
   <fonts name="fonts">
     <font>fonts\fnt_gui</font>
+    <font>fonts\fnt_tharun_stage</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_cmd</object>
     <object>objects\obj_platform</object>
-    <object>objects\obj_base</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_attack</object>
+    <object>objects\obj_base</object>
     <object>objects\obj_samir</object>
     <object>objects\obj_basketball_no_grav</object>
     <object>objects\obj_basketball_grav</object>
@@ -39,6 +47,11 @@
     <object>objects\obj_crystal_slash_1</object>
     <object>objects\obj_crystal_slash_2</object>
     <object>objects\obj_crystal_slash_3</object>
+    <object>objects\obj_tharun</object>
+    <object>objects\obj_plant</object>
+    <object>objects\obj_shrimp</object>
+    <object>objects\obj_lobster</object>
+    <object>objects\obj_shark</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_final_destination</room>
