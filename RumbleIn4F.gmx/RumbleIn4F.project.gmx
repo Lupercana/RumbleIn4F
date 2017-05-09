@@ -24,6 +24,9 @@
     <sprite>sprites\sp_plant</sprite>
     <sprite>sprites\sp_bo</sprite>
     <sprite>sprites\sp_hammer_smash</sprite>
+    <sprite>sprites\sp_sarthak</sprite>
+    <sprite>sprites\sp_gas_cloud</sprite>
+    <sprite>sprites\sp_planet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_simple_color</background>
@@ -56,6 +59,9 @@
     <object>objects\obj_shark</object>
     <object>objects\obj_bo</object>
     <object>objects\obj_hammer_smash</object>
+    <object>objects\obj_sarthak</object>
+    <object>objects\obj_gas_cloud</object>
+    <object>objects\obj_planet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_final_destination</room>

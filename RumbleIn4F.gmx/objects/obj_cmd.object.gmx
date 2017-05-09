@@ -172,14 +172,14 @@
             <string>var inst;
 
 // Player 1
-inst = instance_create(192, 416, obj_kevin)
+inst = instance_create(192, 416, obj_tharun);
 with (inst)
 {
     num = 1;
 }
 
 // Player 2
-inst = instance_create(832, 416, obj_samir)
+inst = instance_create(832, 416, obj_samir);
 with (inst)
 {
     num = 2;
@@ -261,9 +261,9 @@ if (global.health_two &lt;= 0)
 draw_set_color(c_black);
 draw_set_font(fnt_gui);
 draw_set_halign(fa_left);
-draw_text(10, 0, string(global.health_one));
+draw_text(10, 0, string(ceil(global.health_one)));
 draw_set_halign(fa_right);
-draw_text(room_width - 10, 0, string(global.health_two));
+draw_text(room_width - 10, 0, string(ceil(global.health_two)));
 
 // Draw cooldowns
 if (global.skill_1_one)

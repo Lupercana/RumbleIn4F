@@ -223,6 +223,15 @@ y += y_vel;
 {
     if (!other.invincible)
     {
+        var size;
+        if (damage &lt;= 5)
+            size = 0;
+        else if (damage &gt; 5 &amp;&amp; damage &lt; 20)
+            size = 1;
+        else
+            size = 2;
+        effect_create_below(ef_explosion, x, y, size, c_red);
+    
         if (other.num == 1)
             global.health_one -= damage * damage_multiplier;
         else if (other.num == 2)
